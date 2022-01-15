@@ -1,10 +1,11 @@
 import './App.css';
+import UI from './components/UI';
 
 function App() {
   return (
-    <div >
-      <h1 className='text-blue-400'>Hello From App</h1>
-    </div>
+    <>
+      <UI/>
+    </>
   );
 }
 
